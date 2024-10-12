@@ -1,0 +1,91 @@
+.singleProjectDark {
+    background-color: #d67323;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 600px;
+    cursor: pointer;
+}
+
+.singleProjectDark:hover {
+    transform: scale(1.05);
+}
+
+.projectImageWrapper {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-bottom: 1px solid #333;
+   
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: resize;
+}
+
+.projectContentDark {
+    padding: 20px;
+    color: #FFF;
+}
+
+.projectTitleDark {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.projectDescDark {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.project--showcaseBtn {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.projectTags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.projectTag {
+    background-color: #333;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .singleProjectDark {
+        max-width: 100%;
+    }
+
+    .projectImageWrapper {
+        height: 180px;
+    }
+
+    .projectContentDark {
+        padding: 15px;
+    }
+
+    .projectTitleDark {
+        font-size: 1.2rem;
+    }
+
+    .projectDescDark {
+        font-size: 0.9rem;
+    }
+
+    .projectTag {
+        font-size: 0.75rem;
+    }
+}
