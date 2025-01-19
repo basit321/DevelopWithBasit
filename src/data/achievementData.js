@@ -3,9 +3,9 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'React Native Mobile App Development Certification',
-            details : 'Certification that validates expertise in building cross-platform mobile applications using React Native.',
-            date : 'June 15, 2021',
+            title : 'React Native Unveiled: From Basics to Mobile Mastery',
+            details : 'Certified in React Native Unveiled: From Basics to Mobile Mastery Equipped with a comprehensive understanding of React Native, I am skilled in building robust, cross-platform mobile applications with cutting-edge techniques.',
+            date : 'Feb 2, 2022',
             field : 'Mobile Development',
             image : "https://viitorcloud.com/blog/wp-content/uploads/2022/06/React-Native-Framework-for-Mobile-App-Development.jpg"
         },
